@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\FashionSoftware\\Fashion\\Fashion.csproj": {}
+  },
+  "projects": {
+    "D:\\FashionSoftware\\Admin\\Admin.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\FashionSoftware\\Admin\\Admin.csproj",
+        "projectName": "Admin",
+        "projectPath": "D:\\FashionSoftware\\Admin\\Admin.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\FashionSoftware\\Categories\\Categories.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\FashionSoftware\\Categories\\Categories.csproj",
+        "projectName": "Categories",
+        "projectPath": "D:\\FashionSoftware\\Categories\\Categories.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\FashionSoftware\\Admin\\Admin.csproj": {
+                "projectPath": "D:\\FashionSoftware\\Admin\\Admin.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\FashionSoftware\\Fashion\\Fashion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FashionSoftware\\Fashion\\Fashion.csproj",
+        "projectName": "Fashion",
+        "projectPath": "D:\\FashionSoftware\\Fashion\\Fashion.csproj",
+        "packagesPath": "C:\\Users\\Shameema.Shaik\\.nuget\\packages\\",
+        "outputPath": "D:\\FashionSoftware\\Fashion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shameema.Shaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\FashionSoftware\\Admin\\Admin.csproj": {
+                "projectPath": "D:\\FashionSoftware\\Admin\\Admin.csproj"
+              },
+              "D:\\FashionSoftware\\Categories\\Categories.csproj": {
+                "projectPath": "D:\\FashionSoftware\\Categories\\Categories.csproj"
+              },
+              "D:\\FashionSoftware\\Products\\Products.csproj": {
+                "projectPath": "D:\\FashionSoftware\\Products\\Products.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FashionSoftware\\Products\\Products.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\FashionSoftware\\Products\\Products.csproj",
+        "projectName": "Products",
+        "projectPath": "D:\\FashionSoftware\\Products\\Products.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\FashionSoftware\\Admin\\Admin.csproj": {
+                "projectPath": "D:\\FashionSoftware\\Admin\\Admin.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
